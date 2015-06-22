@@ -2,8 +2,7 @@ bash_it_version = version_string_for('bash_it')
 
 git "#{Chef::Config[:file_cache_path]}/bash_it" do
   repository node['bash_it']['repository']
-  revision bash_it_version
-  checkout_branch 'master'
+  revision master
   destination "#{Chef::Config[:file_cache_path]}/bash_it"
   action :sync
 end
