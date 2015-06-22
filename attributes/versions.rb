@@ -1,1 +1,1 @@
-node.default['versions']['bash_it'] = '0986e40d6c4c64dc03cce6497294cef17ca57307'
+node.default['versions']['bash_it'] = '5e61b73a87ae67fdb4d1e8c92eda352367a47700'
